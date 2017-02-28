@@ -2,10 +2,110 @@
   box-sizing: border-box; }
 
 body {
-  background: limegreen; }
+  background-color: #B4D7B2; }
 
-h2 {
-  color: #333;
-  border-bottom: 4px solid #333; }
+h3 {
+  color: #002fa7;
+  font-family: "Futura";
+  font-weight: lighter; }
+
+#app-container {
+  background-color: #B4D7B2; }
+
+.nav-bar > * {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top; }
+
+.nav-bar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #DDD;
+  border-bottom: solid thin #333; }
+
+.nav-tab {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 2%;
+  border-radius: 20px;
+  border: #333 solid thin;
+  background-color: #bbb;
+  padding: 8px;
+  width: 12%;
+  text-align: center; }
+
+.logo-tab {
+  font-family: sans-serif;
+  color: #002fa7;
+  font-size: medium;
+  font-weight: lighter;
+  text-align: right;
+  width: 60%;
+  font-size: 34px; }
+
+.listings-container {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%; }
+
+.listing-post {
+  height: 300px;
+  border-radius: 20px;
+  border: thin solid #333; }
+
+.listing-post img {
+  width: 70%; }
+
+.single-item {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%; }
+
+.single-item > * {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top; }
+
+.single-item img {
+  margin-left: auto;
+  margin-right: auto; }
+
+.item-info {
+  width: 70%;
+  text-align: left;
+  font-size: medium; }
+
+.remove-item {
+  margin-top: 6px;
+  font-size: medium; }
+
+.add-listing {
+  text-align: center;
+  font-family: sans-serif; }
+
+.new-listing {
+  padding-top: 50px;
+  max-width: 20%;
+  text-align: right; }
+
+.item_name {
+  padding-top: 20px; }
+
+.flash-msg {
+  height: 20px;
+  width: 100%;
+  text-align: center; }
+
+.input-success {
+  background-color: green;
+  color: #fff;
+  font-weight: bold; }
+
+.input-failure {
+  background-color: red;
+  color: #fff;
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map*/
